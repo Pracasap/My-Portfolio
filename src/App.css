@@ -120,3 +120,198 @@ button[type=reset]:active  {
     background-size: cover;
     background-position: center;
 }
+
+.projects {
+    min-height: 88.7vh;
+    width: 100%;
+    display: grid;
+    background-color: rgb(28, 31, 45);;
+    background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.68) ), url(assets/images/background.jpeg);
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact {
+    min-height: 88.7vh;
+    width: 100%;
+    display: grid;
+    background-color: rgb(28, 31, 45);;
+    background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.68) ), url(assets/images/background.jpeg);
+    background-attachment: fixed;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.social-links {
+    font-size: 25px;
+    text-align: right;
+}
+
+.card-icon {
+    font-size: 40px;
+}
+
+.card-img-div {
+    max-height: 365px;
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 20px;
+    color:black;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 18px;
+    font-weight: 400;
+    width: 100%;
+    color: rgb(50, 50, 50) !important;
+}
+
+.row-content {
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.copyright {
+    text-align: left;
+    display: grid !important;
+    align-content: center !important;
+}
+
+.form-label {
+    font-size: 22px !important;
+}
+
+/* Footer */
+.site-footer {
+    background-color: rgb(41, 45, 72); 
+}
+
+.footer-icon {
+    color: #fff !important;
+}
+
+@media screen and (max-width: 980px) {
+    .homeParagraph {
+        color: rgb(255, 255, 255) !important;
+        width: 90% !important;
+        font-size: 18px;
+    }
+    
+    h1 {
+        color: #fff;
+        font-size: 60px !important;
+        font-family: 'Kaushan Script';
+    }
+    .home {
+        min-height: 100vh !important;
+        width: 100%;
+        display: grid;
+        background-color: rgb(28, 31, 45);;
+        align-content: center;
+        background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.68) ), url(assets/images/background.jpeg);
+        background-attachment: fixed;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+    }
+    #homeH4 {
+        color: rgb(254, 189, 107);
+        font-size: 18px !important;
+    }
+    .copyright {
+        text-align: center;
+    }
+    .social-links {
+        font-size: 25px;
+        padding-top: 5px;
+        text-align: center;
+    }
+    .navbar-social-links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home {
+        min-height: 100vh !important;
+        width: 100%;
+        display: grid;
+        background-color: rgb(28, 31, 45);;
+        align-content:center;
+        padding-bottom: 20px;
+        background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.68) ), url(assets/images/background.jpeg);
+        background-attachment: fixed;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+    }
+    .homeParagraph {
+        color: rgb(255, 255, 255) !important;
+        width: 100% !important;
+        font-size: px;
+        text-align: center;
+    }
+    h1 {
+        color: #fff;
+        font-size: 55px !important;
+        font-family: 'Kaushan Script';
+        text-align: center;
+    }
+    #homeH4 {
+        color: rgb(254, 189, 107);
+        font-size: 20px !important;
+        text-align: center !important;
+        text-transform: capitalize;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .home {
+        min-height: 85vh !important;
+        width: 100%;
+        display: grid;
+        background-color: rgb(28, 31, 45);;
+        align-content: center;
+        padding-bottom: 20px;
+        background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.68) ), url(assets/images/background.jpeg);
+        background-attachment:scroll;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+    }
+    .homeParagraph {
+        color: rgb(255, 255, 255) !important;
+        width: 100% !important;
+        font-size: 18px;
+        text-align: left;
+    }
+    h1 {
+        color: #fff;
+        font-size: 44px !important;
+        font-family: 'Kaushan Script';
+        text-align: left;
+    }
+    #homeH4 {
+        color: rgb(254, 189, 107);
+        font-size: 25px !important;
+        text-align: left !important;
+        text-transform: capitalize !important;
+    }
+}
