@@ -106,7 +106,7 @@ button[type=reset]:active  {
 
 
 .home {
-    min-height: 88.7vh;
+    min-height: 100vh;
     width: 100%;
     display: grid;
     background-color: rgb(28, 31, 45);;
@@ -121,7 +121,7 @@ button[type=reset]:active  {
 }
 
 .projects {
-    min-height: 88.7vh;
+    min-height: 100vh;
     width: 100%;
     display: grid;
     background-color: rgb(28, 31, 45);;
@@ -135,7 +135,7 @@ button[type=reset]:active  {
 }
 
 .contact {
-    min-height: 88.7vh;
+    min-height: 100vh;
     width: 100%;
     display: grid;
     background-color: rgb(28, 31, 45);;
@@ -263,25 +263,25 @@ button[type=reset]:active  {
         color: rgb(255, 255, 255) !important;
         width: 100% !important;
         font-size: px;
-        text-align: center;
+        text-align: left;
     }
     h1 {
         color: #fff;
         font-size: 55px !important;
         font-family: 'Kaushan Script';
-        text-align: center;
+        text-align: left;
     }
     #homeH4 {
         color: rgb(254, 189, 107);
         font-size: 20px !important;
-        text-align: center !important;
+        text-align: left !important;
         text-transform: capitalize;
     }
 }
 
 @media screen and (max-width: 550px) {
     .home {
-        min-height: 85vh !important;
+        min-height: 100vh !important;
         width: 100%;
         display: grid;
         background-color: rgb(28, 31, 45);;
@@ -296,7 +296,7 @@ button[type=reset]:active  {
         background-position: center;
     }
     .projects {
-        min-height: 88.7vh;
+        min-height: 100vh;
         width: 100%;
         display: grid;
         background-color: rgb(28, 31, 45);;
@@ -310,7 +310,7 @@ button[type=reset]:active  {
     }
     
     .contact {
-        min-height: 88.7vh;
+        min-height: 100vh;
         width: 100%;
         display: grid;
         background-color: rgb(28, 31, 45);;
@@ -341,7 +341,7 @@ button[type=reset]:active  {
         text-transform: capitalize !important;
     }
     .row-content {
-        padding: 0px;
+        padding: 0px !important;
         align-content: center;
         justify-content: center;
     }

@@ -95,7 +95,7 @@ class Contact extends Component {
                             <h2>Get In Touch</h2>
                         </div>
                     </div>
-                    <div className="row" style={{backgroundColor: '#f1f1f1'}}>
+                    <div className="row row-content" style={{backgroundColor: '#f1f1f1', borderRadius: 2}}>
                         <div className="col m-4">
                             <Form onSubmit={this.handleSubmit} id="contactForm">
                                 <FormGroup row>
@@ -158,7 +158,7 @@ class Contact extends Component {
                                 <FormGroup row>
                                     <Col className="col-lg-2 d-none d-lg-block">
                                     </Col>
-                                    <Col className="col col-lg-10">
+                                    <Col className="col col-lg-10 d-flex justify-content-center justify-content-lg-start">
                                         <Button className="btn btn-full btn-lg mr-2" type="submit">Send</Button>
                                     </Col>
                                 </FormGroup>
