@@ -29,17 +29,17 @@ class Header extends Component {
                         <Collapse isOpen={this.state.isNavOpen} navbar>
                             <Nav navbar className="ml-5">
                                 <NavItem>
-                                    <NavLink className="nav-link mr-4" to="/home">
+                                    <NavLink className="nav-link mr-4" to="/home" onClick={this.toggleNav}>
                                     <ion-icon name="home" />  &nbsp;HOME
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link mr-4" to="/projects">
+                                    <NavLink className="nav-link mr-4" to="/projects" onClick={this.toggleNav}>
                                     <ion-icon name="documents" /> &nbsp;PROJECTS
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link" to="/contact">
+                                    <NavLink className="nav-link" to="/contact" onClick={this.toggleNav}>
                                     <ion-icon name="call" /> &nbsp;CONTACT
                                     </NavLink>
                                 </NavItem>
