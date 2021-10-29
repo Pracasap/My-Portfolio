@@ -15,7 +15,7 @@ export const PROJECTS = [
         "website": "https://psapkota.com",
         "github": "https://github.com/Pracasap/Portfolio-react-redux",
         "codepen": false,
-        "description": "This is my personal portfolio app. I used Bootstrap, Reactstrap, React, React-redux, etc to build this app. I had a blast working on this project and project like this makes my journey worthwhile."
+        "description": "This is my personal portfolio webpage. I used Bootstrap, Reactstrap, React, React-redux, and many other tools to build this app. I had a blast working on this project and project like this makes my journey worthwhile."
     },
     {
         "id": 2,
