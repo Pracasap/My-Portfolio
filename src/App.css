@@ -43,8 +43,7 @@ h5, h6 {
 
 /* Navbar */
 .NavbarBrand {
-    font-weight: 500;
-    font-size: 35px;
+    font-size: 25px !important;
     font-family: 'Kaushan Script';
 }
 
