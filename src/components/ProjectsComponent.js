@@ -6,14 +6,14 @@ function RenderIcons(prop) {
     const webLinkKeys = ['website', 'github', 'codepen'];
     const {project} = prop
     
-    webLinkKeys.map((linkKey) => {
+    webLinkKeys.forEach((linkKey) => {
         if (project[linkKey]) {
             const icon = linkKey === 'website' ? 'earth': `logo-${linkKey}`
             const link = <a href={prop.project[linkKey]} target="_blank" rel="noreferrer" style={{paddingRight: 10}}><ion-icon name={icon} /></a>;
             weblinks.push(link);
         }
-        return weblinks;
     })
+    return weblinks;
 }
 
 const RenderProjects = ({project}) => {
