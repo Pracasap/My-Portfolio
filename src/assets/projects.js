@@ -15,7 +15,7 @@ export const PROJECTS = [
         "website": "https://psapkota.com",
         "github": "https://github.com/Pracasap/Portfolio-react-redux",
         "codepen": false,
-        "description": "This is my personal portfolio webpage. I used Bootstrap, Reactstrap, React, React-redux, and many other tools to build this app. I had a blast working on this project and project like this makes my journey worthwhile."
+        "description": "This is my personal portfolio webpage. I used Bootstrap, Reactstrap, React, React-redux, and many other tools to build this app. I had a blast working on this project and projects like this make my journey worthwhile."
     },
     {
         "id": 2,
@@ -30,7 +30,7 @@ export const PROJECTS = [
         "id": 3,
         "name": "Nucamp",
         "image": "images/nucamp.png",
-        "website": false,
+        "website": "https://nucampreactredux.netlify.app",
         "github": "https://github.com/Pracasap/React-Nucamp",
         "codepen": false,
         "description": "NuCamp is a webpage I build with React when I was in the Nucamp Bootcamp. I learned about React, Reactstrap, Single Page Applications(SPA), React Router, Redux, etc. It was challenging but I know that is where the growth is."
@@ -55,6 +55,15 @@ export const PROJECTS = [
     },
     {
         "id": 6,
+        "name": "Old Portfolio",
+        "image": "images/pracasap.github.io.png",
+        "website": "https://pracasap.github.io",
+        "github": "https://github.com/Pracasap/pracasap.github.io",
+        "codepen": "https://codepen.io/prakash-sapkota/pen/LYRBeKP",
+        "description": "This was my previous personal portfolio webpage. It is a simple responsive webpage I built using HTML and CSS only. This webpage definitely gave me ideas and inspiration to build a better personal portfolio webpage."
+    },
+    {
+        "id": 7,
         "name": "Landing Page",
         "image": "images/landingpage.png",
         "website": false,
@@ -63,7 +72,7 @@ export const PROJECTS = [
         "description": "This project taught me that a simple webpage like this can look great. It had very basic colors yet looked awesome. I also got to learn how to make containers and cards using CSS. Furthermore, I learned about grid and flexbox in CSS."
     },
     {
-        "id": 7,
+        "id": 8,
         "name": "Technical Documentation",
         "image": "images/technicaldocumentation.png",
         "website": false,

@@ -1,4 +1,6 @@
+import emailjs from 'emailjs-com';
 import React, { Component } from "react";
+
 import {  Button, Form, FormGroup, Label, Input, Col, FormFeedback } from 'reactstrap';
 
 class Contact extends Component {
@@ -23,6 +25,7 @@ class Contact extends Component {
     }
 
     handleInputChange(event) {
+        event.preventDefault();
         const target = event.target;
         const name = target.name;
         const value = target.value;
@@ -30,13 +33,6 @@ class Contact extends Component {
         this.setState({
             [name]: value
         });
-    }
-
-    handleSubmit(event) {
-        console.log("Current state is: " + JSON.stringify(this.state));
-        alert("Current state is: " + JSON.stringify(this.state));
-        event.preventDefault();
-        
     }
 
     validate(firstName, lastName, email, message) {
@@ -81,6 +77,43 @@ class Contact extends Component {
         this.setState({
             touched: {...this.state.touched, [field]: true}
         });
+    }
+
+    resetForm = () => {
+        this.setState({
+            firstName: "",
+            lastName: "",
+            email: "",
+            message: "",
+            touched: {
+                firstName: false,
+                lastName: false,
+                email: false,
+                message: false
+            }
+        });
+    }
+
+    handleSubmit(event) {
+        event.preventDefault();
+
+        const templateParams = {
+            from_name: this.state.firstName + " " + this.state.lastName,
+            email: this.state.email,
+            message: this.state.message
+        };
+
+        emailjs
+        .send('service_z5c92ra', 'template_0cwa6bf', templateParams, 'user_973Q3WIWEZqim59GgWGUL')
+        .then((result) => {
+            console.log(result.text);
+            alert("Your Message has been Sent! Will get back to you soon.");
+        }, (error) => {
+            console.log(error.text);
+            alert('Your Message could not be sent!');
+        });
+
+        this.resetForm()
     }
 
     render() {
@@ -160,6 +193,7 @@ class Contact extends Component {
                                     </Col>
                                     <Col className="col col-lg-10 d-flex justify-content-center justify-content-lg-start">
                                         <Button className="btn btn-full btn-lg mr-2" type="submit">Send</Button>
+                                        <Button className="btn btn-full btn-lg mr-2" type="reset" onClick={this.resetForm}>Reset</Button>
                                     </Col>
                                 </FormGroup>
                             </Form>
