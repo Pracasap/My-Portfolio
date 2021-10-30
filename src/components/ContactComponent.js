@@ -1,5 +1,7 @@
 import emailjs from 'emailjs-com';
 import React, { Component } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import {  Button, Form, FormGroup, Label, Input, Col, FormFeedback } from 'reactstrap';
 
@@ -105,13 +107,17 @@ class Contact extends Component {
 
         emailjs
         .send('service_z5c92ra', 'template_0cwa6bf', templateParams, 'user_973Q3WIWEZqim59GgWGUL')
-        .then((result) => {
-            console.log(result.text);
-            alert("Your Message has been Sent! Will get back to you soon.");
-        }, (error) => {
-            console.log(error.text);
-            alert('Your Message could not be sent!');
-        });
+        .then(
+            function(response) {
+                toast.success("Your message has successfully sent!", {
+                position: toast.POSITION.TOP_CENTER
+                });
+                console.log("SUCCESS!", response.status, response.text);
+            },
+            function(err) {
+                toast.error("Your message was not able to be sent");
+            }
+        );
 
         this.resetForm()
     }
@@ -130,6 +136,7 @@ class Contact extends Component {
                     </div>
                     <div className="row row-content" style={{backgroundColor: '#f1f1f1', borderRadius: 2}}>
                         <div className="col m-4">
+                            <ToastContainer />
                             <Form onSubmit={this.handleSubmit} id="contactForm">
                                 <FormGroup row>
                                     <Label htmlFor="firstName" className="form-label" lg={2}>First Name</Label>
