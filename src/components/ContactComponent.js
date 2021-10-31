@@ -110,10 +110,9 @@ class Contact extends Component {
         .then(
             function(response) {
                 toast.success("Your message has been successfully sent! 🙌 ", {
-                position: toast.POSITION.TOP_RIGHT,
+                position: toast.POSITION.BOTTOM_CENTER,
                 autoClose: 3000,
-                theme: "dark",
-                hideProgressBar: true
+                theme: "dark"
                 });
                 console.log("SUCCESS!", response.status, response.text);
             },
