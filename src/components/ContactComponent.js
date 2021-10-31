@@ -109,8 +109,11 @@ class Contact extends Component {
         .send('service_z5c92ra', 'template_0cwa6bf', templateParams, 'user_973Q3WIWEZqim59GgWGUL')
         .then(
             function(response) {
-                toast.success("Your message has been successfully sent!", {
-                position: toast.POSITION.TOP_CENTER
+                toast.success("Your message has been successfully sent! 🙌 ", {
+                position: toast.POSITION.TOP_RIGHT,
+                autoClose: 3000,
+                theme: "dark",
+                hideProgressBar: true
                 });
                 console.log("SUCCESS!", response.status, response.text);
             },
