@@ -149,10 +149,12 @@ button[type=reset]:active  {
 }
 
 .social-links {
-    font-size: 25px;
+    font-size: 32px;
     text-align: right;
 }
-
+.social-links-mobile {
+    display: none;
+}
 .card-icon {
     font-size: 40px;
 }
@@ -279,7 +281,7 @@ button[type=reset]:active  {
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 576px) {
     .home {
         min-height: 100vh !important;
         width: 100%;
@@ -326,23 +328,32 @@ button[type=reset]:active  {
         color: rgb(255, 255, 255) !important;
         width: 100% !important;
         font-size: 18px;
-        text-align: left;
+        text-align: center;
     }
     h1 {
         color: #fff;
         font-size: 44px !important;
         font-family: 'Kaushan Script';
-        text-align: left;
+        text-align: center;
     }
     #homeH4 {
         color: rgb(254, 189, 107);
         font-size: 20px !important;
-        text-align: left !important;
+        text-align: center !important;
         text-transform: capitalize !important;
     }
     .row-content {
         padding: 0px !important;
         align-content: center;
         justify-content: center;
+    }
+    .social-links-mobile {
+        display: flex;
+        justify-content: space-around;
+        font-size: 35px;
+    }
+    .mobileCenter {
+        display: flex !important;
+        justify-content: center !important;
     }
 }
