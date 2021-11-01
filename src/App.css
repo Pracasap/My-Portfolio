@@ -60,7 +60,7 @@ h5, h6 {
 .btn:link,
 .btn:visited {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 10px 30px !important;
     font-weight: 400;
     text-decoration: none;
     border-radius: 0px !important;
@@ -74,35 +74,45 @@ button[type=submit],
 button[type=reset] {
     background-color: #003366 !important;
     border: 1px solid #003366  !important;
-    border-radius: 0 !important;
     color: #fff !important; }
 
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid rgb(254, 189, 107) !important;
+    background-color: rgb(254, 189, 107) !important;
+    color: #000 !important;
+}
+    
 .btn-ghost,
 .btn-ghost:link,
 .btn-ghost:visited {
     background-color: transparent !important;
     border: 1px solid rgb(254, 189, 107) !important;
-    border-radius: 0 !important;
     color: #fff !important; }
-
-.btn:hover,
-.btn:active,
-button[type=submit]:hover,
-button[type=submit]:active,
-button[type=reset]:active  {
-    background-color: rgb(254, 189, 107) !important;
-    color: #000 !important; }
-
-.btn-full:hover,
-.btn-full:active {
-    border: 1px solid rgb(254, 189, 107) !important; }
 
 .btn-ghost:hover,
 .btn-ghost:active {
+    border: 1px solid rgb(254, 189, 107) !important;
+    background-color: rgb(254, 189, 107) !important;
+    color: #000 !important;
+}
+
+.btn-project,
+.btn-project:link,
+.btn-project:visited
+{
     background-color: rgb(254, 189, 107) !important;
     border: 1px solid rgb(254, 189, 107) !important;
-    color: rgba(0, 0, 0, 1) !important; }
+    border-radius: 0 !important;
+    color: #000 !important; }
 
+.btn-project:hover,
+.btn-project:active {
+    background-color: transparent !important;
+    border: 1px solid rgb(254, 189, 107) !important;
+    border-radius: 0 !important;
+    color: #fff !important; }
 
 
 .home {
@@ -238,7 +248,7 @@ button[type=reset]:active  {
 
 @media screen and (max-width: 768px) {
     .home {
-        min-height: calc(100vh - 150px) !important;
+        min-height: calc(100vh - 180px) !important;
         width: 100%;
         display: grid;
         background-color: rgb(28, 31, 45);;
@@ -310,6 +320,7 @@ button[type=reset]:active  {
         text-align: center;
     }
     h1 {
+        padding-top: 25px;
         color: #fff;
         font-size: 44px !important;
         font-family: 'Kaushan Script';
@@ -319,17 +330,29 @@ button[type=reset]:active  {
         color: rgb(254, 189, 107);
         font-size: 20px !important;
         text-align: center !important;
-        text-transform: capitalize !important;
+        text-transform: none !important;
     }
     .row-content {
         padding: 0px !important;
         align-content: center;
         justify-content: center;
     }
+    .btn,
+    .btn:link,
+    .btn:visited {
+        display: inline-block;
+        padding: 10px 15px !important;
+        font-weight: 400;
+        text-decoration: none;
+        border-radius: 0px !important;
+        -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+        transition: background-color 0.2s, border 0.2s, color 0.2s; 
+    }
     .social-links-mobile {
         display: flex;
         justify-content: space-around;
         font-size: 35px;
+        padding-top: 50px !important;
     }
     .mobileCenter {
         display: flex !important;

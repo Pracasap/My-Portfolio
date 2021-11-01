@@ -146,7 +146,7 @@ class Contact extends Component {
                                         <Input type="text" id="firstName" 
                                         className="form-control form-control-lg" 
                                         name="firstName" 
-                                        placeholder="First Name"
+                                        placeholder="Your First Name"
                                         value={this.state.firstName}
                                         invalid={errors.firstName}
                                         onBlur={this.handleBlur("firstName")}
@@ -161,7 +161,7 @@ class Contact extends Component {
                                     <Input type="text" id="lastName"
                                         className="form-control form-control-lg" 
                                         name="lastName"
-                                        placeholder="Last Name"
+                                        placeholder="Your Last Name"
                                         value={this.state.lastName}
                                         invalid={errors.lastName}
                                         onBlur={this.handleBlur("lastName")}
@@ -175,7 +175,7 @@ class Contact extends Component {
                                     <Col>
                                     <Input type="email" id="email" name="email"
                                         className="form-control form-control-lg" 
-                                        placeholder="Email"
+                                        placeholder="you@email.com"
                                         value={this.state.email}
                                         invalid={errors.email}
                                         onBlur={this.handleBlur("email")}
@@ -188,7 +188,7 @@ class Contact extends Component {
                                     <Label htmlFor="message" className="form-label" lg={2}>Message</Label>
                                     <Col>
                                         <Input type="textarea" id="message" name="message" className="form-control form-control-lg" rows="5"
-                                            placeholder="Your Message"
+                                            placeholder="Write your message here"
                                             value={this.state.message}
                                             invalid={errors.message}
                                             onBlur={this.handleBlur("message")}
