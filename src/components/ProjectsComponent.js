@@ -43,7 +43,7 @@ function Projects(props) {
         )
     })
     return (
-        <div className="container-fluid projects">
+        <div className="container-fluid home">
             <div className="container mb-5">
                 <div className="row">
                     <div className="col mt-5 mb-3">

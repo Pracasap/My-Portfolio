@@ -106,9 +106,9 @@ button[type=reset]:active  {
 
 
 .home {
-    min-height: 100vh;
+    min-height: calc(100vh - 150px) !important;
     width: 100%;
-    display: grid;
+    display: flex;
     background-color: rgb(28, 31, 45);;
     align-content: center;
     background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.68) ), url(assets/background.jpeg);
@@ -120,25 +120,12 @@ button[type=reset]:active  {
     background-position: center;
 }
 
-.projects {
-    min-height: 100vh;
-    width: 100%;
-    display: grid;
-    background-color: rgb(28, 31, 45);;
-    background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.68) ), url(assets/background.jpeg);
-    background-attachment: fixed;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center;
-}
-
 .contact {
-    min-height: 100vh;
+    min-height: calc(100vh - 150px) !important;
     width: 100%;
-    display: grid;
+    display: flex;
     background-color: rgb(28, 31, 45);;
+    align-content: flex-start;
     background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.68) ), url(assets/background.jpeg);
     background-attachment: fixed;
     -o-background-size: cover;
@@ -149,12 +136,14 @@ button[type=reset]:active  {
 }
 
 .social-links {
-    font-size: 32px;
+    font-size: 32px !important;
     text-align: right;
 }
+
 .social-links-mobile {
     display: none;
 }
+
 .card-icon {
     font-size: 40px;
 }
@@ -202,7 +191,7 @@ button[type=reset]:active  {
     color: #fff !important;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 992px) {
     .homeParagraph {
         color: rgb(255, 255, 255) !important;
         width: 90% !important;
@@ -215,7 +204,7 @@ button[type=reset]:active  {
         font-family: 'Kaushan Script';
     }
     .home {
-        min-height: 100vh !important;
+        min-height: calc(100vh - 150px) !important;
         width: 100%;
         display: grid;
         background-color: rgb(28, 31, 45);;
@@ -235,11 +224,13 @@ button[type=reset]:active  {
     .copyright {
         text-align: center;
     }
+
     .social-links {
-        font-size: 25px;
+        font-size: 30px !important;
         padding-top: 5px;
         text-align: center;
     }
+
     .navbar-social-links {
         display: none;
     }
@@ -247,7 +238,7 @@ button[type=reset]:active  {
 
 @media screen and (max-width: 768px) {
     .home {
-        min-height: 100vh !important;
+        min-height: calc(100vh - 150px) !important;
         width: 100%;
         display: grid;
         background-color: rgb(28, 31, 45);;
@@ -279,16 +270,18 @@ button[type=reset]:active  {
         text-align: left !important;
         text-transform: capitalize;
     }
+    .social-links {
+    font-size: 30px !important;
+    text-align: center;
+}
 }
 
 @media screen and (max-width: 576px) {
     .home {
-        min-height: 100vh !important;
+        min-height: calc(100vh - 130px) !important;
         width: 100%;
         display: flex;
         background-color: rgb(28, 31, 45);;
-        align-content: flex-start;
-        padding-top: 20px;
         background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.68) ), url(assets/background.jpeg);
         background-attachment:scroll;
         -o-background-size: cover;
@@ -297,27 +290,13 @@ button[type=reset]:active  {
         background-size: cover;
         background-position: center;
     }
-    .projects {
-        min-height: 100vh;
-        width: 100%;
-        display: grid;
-        background-color: rgb(28, 31, 45);;
-        background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.68) ), url(assets/background.jpeg);
-        background-attachment: local;
-        -o-background-size: cover;
-        -moz-background-size: cover;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center;
-    }
-    
     .contact {
-        min-height: 100vh;
+        min-height: calc(100vh - 130px) !important;
         width: 100%;
-        display: grid;
+        display: flex;
         background-color: rgb(28, 31, 45);;
         background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.68) ), url(assets/background.jpeg);
-        background-attachment: local;
+        background-attachment:scroll;
         -o-background-size: cover;
         -moz-background-size: cover;
         -webkit-background-size: cover;

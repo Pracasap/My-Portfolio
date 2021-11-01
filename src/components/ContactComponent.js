@@ -129,7 +129,7 @@ class Contact extends Component {
         const errors = this.validate(this.state.firstName, this.state.lastName, this.state.email, this.state.message);
     
         return (
-            <div className="container-fluid projects">
+            <div className="container-fluid contact">
                 <div className="container mb-5">
                     <div className="row">
                         <div className="col mt-5 mb-3">
