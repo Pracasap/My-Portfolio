@@ -137,7 +137,7 @@ class Contact extends Component {
                         </div>
                     </div>
                     <div className="row row-content" style={{backgroundColor: '#f1f1f1', borderRadius: 2}}>
-                        <div className="col m-4">
+                        <div className="col m-2 m-md-3 m-lg-4 m-xl-5">
                             <ToastContainer />
                             <Form onSubmit={this.handleSubmit} id="contactForm">
                                 <FormGroup row>
