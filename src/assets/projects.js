@@ -39,8 +39,8 @@ export const PROJECTS = [
         "id": 4,
         "name": "Tribute Page",
         "image": "images/tribute.png",
-        "website": false,
-        "github": false,
+        "website": "https://pracasap.github.io/Tribute-page/",
+        "github": "https://github.com/Pracasap/Tribute-page",
         "codepen": "https://codepen.io/prakash-sapkota/pen/QBBLWm",
         "description": "I made a simple HTML, CSS webpage tributing the Nobel Peace Prize winner Dr. Norman Borlaug. Having a strong foundation in HTML and CSS by working on projects like this really helped me learn Bootstrap quickly."
     },
@@ -48,8 +48,8 @@ export const PROJECTS = [
         "id": 5,
         "name": "Survey Form",
         "image": "images/surveyform.png",
-        "website": false,
-        "github": false,
+        "website": "https://pracasap.github.io/Survey-Form/",
+        "github": "https://github.com/Pracasap/Survey-form",
         "codepen": "https://codepen.io/prakash-sapkota/pen/rNMYxYj",
         "description": "Survery Form is a webpage I built when I was learning about forms. It was a small project, yet I got to learn about background image, opacity, different form tags and attributes while having a lot of fun on top of that."
     },
@@ -64,10 +64,10 @@ export const PROJECTS = [
     },
     {
         "id": 7,
-        "name": "Landing Page",
+        "name": "Product Landing Page",
         "image": "images/landingpage.png",
-        "website": false,
-        "github": false,
+        "website": "https://pracasap.github.io/Product-Langing-Page/",
+        "github": "https://github.com/Pracasap/Product-Langing-Page",
         "codepen": "https://codepen.io/prakash-sapkota/pen/WNGXaYO",
         "description": "This project taught me that a simple webpage like this can look great. It had very basic colors yet looked awesome. I also got to learn how to make containers and cards using CSS. Furthermore, I learned about grid and flexbox in CSS."
     },
@@ -75,8 +75,8 @@ export const PROJECTS = [
         "id": 8,
         "name": "Technical Documentation",
         "image": "images/technicaldocumentation.png",
-        "website": false,
-        "github": false,
+        "website": "https://pracasap.github.io/Technical-Documentation/",
+        "github": "https://github.com/Pracasap/Technical-Documentation",
         "codepen": "https://codepen.io/prakash-sapkota/pen/OJRvLwK",
         "description": "This project not only taught me about grid and flexbox, but made me wanna learn JavaScript. Working on this project, I realized how much I love making webpages and that is when I decided to focus on learning web development."
     }
