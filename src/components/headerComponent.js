@@ -24,17 +24,17 @@ class Header extends Component {
             <React.Fragment>
                 <Navbar dark sticky="top" expand="md" className="nav-bar">  
                     <div className="container">  
-                        <NavbarBrand href="/" className="NavbarBrand font-weight-bold"><ion-icon name="leaf" /> P S</NavbarBrand> 
+                        <NavbarBrand href="/" className="NavbarBrand"><ion-icon name="leaf" /> P S</NavbarBrand> 
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar className="ml-5">
+                            <Nav navbar>
                                 <NavItem>
-                                    <NavLink className="nav-link mr-4" to="/home" onClick={this.toggleNav}>
+                                    <NavLink className="nav-link" to="/home" onClick={this.toggleNav}>
                                     <ion-icon name="home" />  &nbsp;HOME
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink className="nav-link mr-4" to="/projects" onClick={this.toggleNav}>
+                                    <NavLink className="nav-link" to="/projects" onClick={this.toggleNav}>
                                     <ion-icon name="documents" /> &nbsp;PROJECTS
                                     </NavLink>
                                 </NavItem>
