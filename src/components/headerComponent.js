@@ -27,7 +27,7 @@ class Header extends Component {
                         <NavbarBrand href="/" className="NavbarBrand"><ion-icon name="leaf" /> P S</NavbarBrand> 
                         <NavbarToggler onClick={this.toggleNav} />
                         <Collapse isOpen={this.state.isNavOpen} navbar>
-                            <Nav navbar>
+                            <Nav className="ml-auto" navbar>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/home" onClick={this.toggleNav}>
                                     <ion-icon name="home" />  &nbsp;HOME

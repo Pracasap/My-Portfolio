@@ -45,7 +45,6 @@ h5, h6 {
 .NavbarBrand {
     font-size: 25px !important;
     font-family: 'Kaushan Script';
-    margin-right: 100px !important;
 }
 
 .nav-bar {
@@ -54,7 +53,7 @@ h5, h6 {
 
 .nav-link {
     font-weight: 600;
-    margin-right: 30px !important;
+    padding-left: 50px !important;
 }
 
 /* Buttons */
