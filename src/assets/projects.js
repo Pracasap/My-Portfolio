@@ -15,7 +15,7 @@ export const PROJECTS = [
         "website": false,
         "github": "https://github.com/Pracasap/Portfolio-react-native",
         "codepen": false,
-        "description": "This is my personal portfolio mobile app that I built using React Native. I learnt different React Native UI Components, React Native Alerts, Animations, Gestures, The Expo SDK, and much more while working on this project."
+        "description": "This is my personal portfolio mobile app that I built using React Native. I learnt different React Native UI Components, React Native Alerts, Animations, Gestures, The Expo SDK, and much more working on this project."
     },
     {
         "id": 8,
@@ -42,7 +42,7 @@ export const PROJECTS = [
         "website": "https://nucampreactredux.netlify.app",
         "github": "https://github.com/Pracasap/React-Nucamp",
         "codepen": false,
-        "description": "NuCamp is a webpage I build with React when I was in the Nucamp Bootcamp. I learned about React, Reactstrap, Single Page Applications(SPA), React Router, Redux, etc. It was challenging but I know that is where the growth is."
+        "description": "NuCamp is a webpage I build with React when I was in the Nucamp Bootcamp. I learned about React, Reactstrap, Single Page Applications(SPA), React Router, Redux, etc. It was challenging but that is where the growth is."
     },
     {
         "id": 5,
