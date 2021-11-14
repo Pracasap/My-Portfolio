@@ -1,6 +1,15 @@
 export const PROJECTS = [
     {
-        "id": 0,
+        "id": 10,
+        "name": "Forever Creating",
+        "image": "images/foreverCreating.png",
+        "website": "https://forevercreating.netlify.app/",
+        "github": "https://github.com/Pracasap/Forever-Creating",
+        "codepen": false,
+        "description": "This website allows a creative person sell products online. It has a shop which displays variety of hand-made creative items like earrings, oils, bath salts, etc. I am trying react hooks, video background on a webpage, etc for the first time. 🙌"
+    },
+    {
+        "id": 9,
         "name": "Portfolio Mobile App",
         "image": "images/portfolio-React-native.png",
         "website": false,
@@ -9,7 +18,7 @@ export const PROJECTS = [
         "description": "This is my personal portfolio mobile app that I built using React Native. I learnt different React Native UI Components, React Native Alerts, Animations, Gestures, The Expo SDK, and much more while working on this project."
     },
     {
-        "id": 1,
+        "id": 8,
         "name": "Personal Portfolio",
         "image": "images/portfolio.png",
         "website": "https://psapkota.com",
@@ -18,7 +27,7 @@ export const PROJECTS = [
         "description": "This is my personal portfolio webpage. I used Bootstrap, Reactstrap, React, React-redux, and many other tools to build this app. I had a blast working on this project and projects like this make my journey worthwhile."
     },
     {
-        "id": 2,
+        "id": 7,
         "name": "FineDine",
         "image": "images/fineDine.png",
         "website": "https://finedine.netlify.app",
@@ -27,7 +36,7 @@ export const PROJECTS = [
         "description": "FineDine is a bootstrap project I worked on during Nucamp Bootcamp. I learned about bootstrap containers, modals, accordion, and a whole lot more bootstrap classes working on this project. I had so much fun."
     },
     {
-        "id": 3,
+        "id": 6,
         "name": "Nucamp",
         "image": "images/nucamp.png",
         "website": "https://nucampreactredux.netlify.app",
@@ -36,7 +45,7 @@ export const PROJECTS = [
         "description": "NuCamp is a webpage I build with React when I was in the Nucamp Bootcamp. I learned about React, Reactstrap, Single Page Applications(SPA), React Router, Redux, etc. It was challenging but I know that is where the growth is."
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Tribute Page",
         "image": "images/tribute.png",
         "website": "https://pracasap.github.io/Tribute-page/",
@@ -45,7 +54,7 @@ export const PROJECTS = [
         "description": "I made a simple HTML, CSS webpage tributing the Nobel Peace Prize winner Dr. Norman Borlaug. Having a strong foundation in HTML and CSS by working on projects like this really helped me learn Bootstrap quickly."
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "Survey Form",
         "image": "images/surveyform.png",
         "website": "https://pracasap.github.io/Survey-Form/",
@@ -54,7 +63,7 @@ export const PROJECTS = [
         "description": "Survery Form is a webpage I built when I was learning about forms. It was a small project, yet I got to learn about background image, opacity, different form tags and attributes while having a lot of fun on top of that."
     },
     {
-        "id": 6,
+        "id": 3,
         "name": "Old Portfolio",
         "image": "images/pracasap.github.io.png",
         "website": "https://pracasap.github.io",
@@ -63,7 +72,7 @@ export const PROJECTS = [
         "description": "This was my previous personal portfolio webpage. It is a simple responsive webpage I built using HTML and CSS only. This webpage definitely gave me ideas and inspiration to build a better personal portfolio webpage."
     },
     {
-        "id": 7,
+        "id": 2,
         "name": "Product Landing Page",
         "image": "images/landingpage.png",
         "website": "https://pracasap.github.io/Product-Langing-Page/",
@@ -72,7 +81,7 @@ export const PROJECTS = [
         "description": "This project taught me that a simple webpage like this can look great. It had very basic colors yet looked awesome. I also got to learn how to make containers and cards using CSS. Furthermore, I learned about grid and flexbox in CSS."
     },
     {
-        "id": 8,
+        "id": 1,
         "name": "Technical Documentation",
         "image": "images/technicaldocumentation.png",
         "website": "https://pracasap.github.io/Technical-Documentation/",
