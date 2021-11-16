@@ -45,6 +45,7 @@ h5, h6 {
 .NavbarBrand {
     font-size: 25px !important;
     font-family: 'Kaushan Script';
+    text-shadow: 1px 1px 5px rgb(82, 91, 129) !important;
 }
 
 .nav-bar {
