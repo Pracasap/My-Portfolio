@@ -132,7 +132,7 @@ class Contact extends Component {
             <div className="container-fluid contact">
                 <div className="container mb-5">
                     <div className="row">
-                        <div className="col mt-5 mb-3">
+                        <div className="col mt-5 mb-1">
                             <h2>Get In Touch</h2>
                         </div>
                     </div>
