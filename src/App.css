@@ -132,6 +132,10 @@ button[type=reset] {
     background-position: center;
 }
 
+.projects {
+    background-color: #f1f1f1;
+}
+
 .contact {
     min-height: calc(100vh - 150px) !important;
     width: 100%;
@@ -285,12 +289,15 @@ button[type=reset] {
     .social-links {
     font-size: 30px !important;
     text-align: center;
-}
+    }
+    .projects {
+        background-color: transparent;
+    }
 }
 
 @media screen and (max-width: 576px) {
     .home {
-        min-height: calc(100vh - 130px) !important;
+        min-height: 95vh !important;
         width: 100%;
         display: flex;
         background-color: rgb(28, 31, 45);;
@@ -336,8 +343,6 @@ button[type=reset] {
     }
     .row-content {
         padding: 0px !important;
-        align-content: center;
-        justify-content: center;
     }
     .btn,
     .btn:link,
