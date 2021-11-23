@@ -297,7 +297,7 @@ button[type=reset] {
 
 @media screen and (max-width: 576px) {
     .home {
-        min-height: 95vh !important;
+        min-height: calc(100vh - 125px) !important;
         width: 100%;
         display: flex;
         background-color: rgb(28, 31, 45);;
@@ -337,7 +337,7 @@ button[type=reset] {
     }
     #homeH4 {
         color: rgb(254, 189, 107);
-        font-size: 20px !important;
+        font-size: 18px !important;
         text-align: center !important;
         text-transform: none !important;
     }

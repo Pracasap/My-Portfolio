@@ -46,11 +46,11 @@ function Projects(props) {
         <div className="container-fluid home">
             <div className="container mb-5">
                 <div className="row">
-                    <div className="col mt-5 mb-3">
+                    <div className="col mt-3 mt-md-5 mb-1">
                         <h2>Projects</h2>
                     </div>
                 </div>
-                <div className="row row-content projects" style={{borderRadius: 2}}>
+                <div className="row projects" style={{borderRadius: 2}}>
                         {projects}
                 </div>
             </div>

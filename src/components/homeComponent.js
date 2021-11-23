@@ -12,7 +12,7 @@ function Home() {
                         
                         <h4 id="homeH4">I create beautiful and responsive websites</h4><br></br>
 
-                        <p className="homeParagraph">I am a front-end developer based in Dallas, Texas. I’m passionate about learning the latest and greatest technologies whether that’s the front-end or back-end. I enjoy creating sleek, responsive and user friendly webpages. I am currently open to opportunities and if you feel like we would be a great match, I’d love to hear from you!</p><br />
+                        <p className="homeParagraph text-justify">I am a web/mobile app developer and I’m passionate about learning the latest and greatest technologies whether that’s the front-end or back-end. I enjoy creating sleek, responsive and user friendly webpages. I am currently open to opportunities and if you feel like we would be a great match, I’d love to hear from you!</p><br />
                         <div className="mobileCenter mb-3">
                             <Link to={ `/projects` }>
                                 <Button className="btn btn-project btn-lg mr-3">Projects</Button>
