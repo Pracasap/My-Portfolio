@@ -235,7 +235,7 @@ button[type=reset] {
     }
     #homeH4 {
         color: rgb(254, 189, 107);
-        font-size: 18px !important;
+        font-size: 22px !important;
     }
     .copyright {
         text-align: center;
@@ -282,7 +282,7 @@ button[type=reset] {
     }
     #homeH4 {
         color: rgb(254, 189, 107);
-        font-size: 20px !important;
+        font-size: 22px !important;
         text-align: left !important;
         text-transform: capitalize;
     }
@@ -337,9 +337,9 @@ button[type=reset] {
     }
     #homeH4 {
         color: rgb(254, 189, 107);
-        font-size: 18px !important;
+        font-size: 22px !important;
         text-align: center !important;
-        text-transform: none !important;
+        text-transform: capitalize !important;
     }
     .row-content {
         padding: 0px !important;
