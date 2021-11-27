@@ -1,10 +1,10 @@
 export const PROJECTS = [
     {
         "id": 10,
-        "name": "Forever Creating",
+        "name": "Forever Avenue",
         "image": "images/foreverCreating.png",
-        "website": "https://forevercreating.netlify.app/",
-        "github": "https://github.com/Pracasap/Forever-Creating",
+        "website": "https://foreveravenue.netlify.app/",
+        "github": "https://github.com/Pracasap/Forever-Avenue",
         "codepen": false,
         "description": "This website allows a creative person sell products online. It has a shop which displays variety of hand-made creative items like earrings, oils, bath salts, etc. I learned react hooks, learned to have video background on a webpage, etc. 🙌"
     },
