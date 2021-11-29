@@ -50,7 +50,7 @@ function Projects(props) {
                         <h2>Projects</h2>
                     </div>
                 </div>
-                <div className="row projects" style={{borderRadius: 2}}>
+                <div className="row row-content projects" style={{borderRadius: 2}}>
                         {projects}
                 </div>
             </div>
