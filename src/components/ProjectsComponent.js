@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useLayoutEffect} from 'react';
 import { Card, CardBody, CardText, CardTitle } from 'reactstrap';
 
 function RenderIcons(prop) {
@@ -35,6 +35,10 @@ const RenderProjects = ({project}) => {
 }
 
 function Projects(props) {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0)
+    });
+
     const projects = props.projects.map(project => {
         return (
             <div key={project.id} className="col-md-6 p-3">
