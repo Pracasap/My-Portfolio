@@ -358,11 +358,12 @@ button[type=reset] {
     .social-links-mobile {
         display: flex;
         justify-content: space-around;
-        font-size: 35px;
-        padding-top: 50px !important;
     }
     .mobileCenter {
         display: flex !important;
         justify-content: center !important;
+    }
+    .footer-icon {
+        font-size: 30px !important;
     }
 }

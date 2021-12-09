@@ -9,7 +9,7 @@ function Home() {
                 <div className="row d-flex align-items-center">
                     <div className="col-md-12">
                         <h1>Hi, I am Prakash!</h1>
-                        <h4 id="homeH4" className="d-block d-sm-none">I create beautiful websites</h4><br></br>
+                        <h4 id="homeH4" className="d-block d-sm-none">a web/mobile app developer</h4><br></br>
                         <h4 id="homeH4" className="d-none d-sm-block">I create beautiful and responsive websites</h4><br></br>
 
                         <p className="homeParagraph">I am a web/mobile app developer and I’m passionate about learning the latest and greatest technologies whether that’s the front-end or back-end. I enjoy creating sleek, responsive and user friendly webpages. I am currently open to opportunities and if you feel like we would be a great match, I’d love to hear from you!</p><br />
